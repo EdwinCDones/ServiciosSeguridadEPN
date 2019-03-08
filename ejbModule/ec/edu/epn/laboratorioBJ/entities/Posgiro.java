@@ -10,11 +10,14 @@ import java.util.List;
  * 
  */
 @Entity
+@Table(name = "posgiro", catalog = "bddcorpepn", schema = "`Laboratorios`")
 @NamedQuery(name="Posgiro.findAll", query="SELECT p FROM Posgiro p")
 public class Posgiro implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@Id
+	@SequenceGenerator(name="POSGIRO_IDPOSGIRO_GENERATOR", sequenceName="secuencia_postgiro",allocationSize=1, catalog="bddcorpepn",schema="`Laboratorios`")
+	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="POSGIRO_IDPOSGIRO_GENERATOR")
 	@Column(name="id_posgiro")
 	private String idPosgiro;
 
