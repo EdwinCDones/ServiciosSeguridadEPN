@@ -22,6 +22,8 @@ import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
 import javax.sql.DataSource;
 
+import ec.edu.epn.laboratorioBJ.entities.Tipordeninv;
+
 
 @Stateless
 @TransactionManagement(TransactionManagementType.CONTAINER)
@@ -173,8 +175,5 @@ public class DaoGenericoImplement<E> implements DaoGenerico<E>{
 		
 	}
 
-	
-
-	
 
 }
