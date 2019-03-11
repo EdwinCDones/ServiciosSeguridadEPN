@@ -7,5 +7,6 @@ import ec.edu.epn.laboratorioBJ.entities.Posgiro;
 
 @Local
 public interface PosgiroDAO extends DaoGenerico<Posgiro> {
+	//cambios en posgiroDAO
 
 }
