@@ -1,50 +1,0 @@
-10
-
-dir
-2094
-http://desarrollo-gr:8085/svn/VersionadorEPN/ServiciosSeguridadEPN
-http://desarrollo-gr:8085/svn/VersionadorEPN
-
-
-
-2018-11-21T13:47:23.785311Z
-2093
-jose
-has-props
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-a9d79fb9-c079-a241-bfa4-b8ec989a5a0d
-
-.settings
-dir
-
-ejbModule
-dir
-
-pom.xml
-file
-2095
-
-
-
-
-ed3562b20870fd17783bdbd374c2e376
-2018-04-06T13:14:20.914206Z
-1379
-roberto
-has-props
-
-src
-dir
-
